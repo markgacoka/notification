@@ -2,7 +2,7 @@ name: Send Random Number Notification
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Runs every minute
+    - cron: '20 9 * * *'  # Runs at 9:20 AM every day
   workflow_dispatch:
 
 jobs:
